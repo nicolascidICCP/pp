@@ -6,31 +6,29 @@
     <title>CDE - Cimientos de ensueño</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
     <link rel="icon" href="{{ url_for('static', filename='img/cimientoooos (1).ico') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
 </head>
 <body>
-    <nav class="navegador">
-         <div class="logo">
-                <img src="{{ url_for('static', filename='img/cimientoooos (1).png') }}" alt="logo">
-            </div>
-        <div class="nav">
-            <div class="links">
-                <a href="#" class="inicio">QUE SOMOS</a>
-            </div>
-            <div class="links">
-                <a href="#" class="somos">QUIENES SOMOS</a>
-            </div>
-            <div class="links">
-                <a href="#" class="loque">SOSTENIBILIDAD</a>
-            </div>
-            <div class="links">
-                <a href="#" class="contacto">CONTACTO</a>
-            </div>
-            <div class="boton">
-                <button class="btn">HABLEMOS!</button>
-            </div>
-        </div>
-    </nav>
+    <nav>
+        <input type="checkbox" id="check">
+        
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="#" class="enlaces">
+            <img src="{{ url_for('static', filename='img/cimientoooos (1).png') }}" alt="" class="logooo">
+        </a>
+        <ul>
+            <li><a href="#">Quienes somos</a></li>
+            <li><a href="#">Que hacemos</a></li>
+            <li><a href="#">SOSTENIBILIDAD</a></li>
+            <li><a href="#">colaboraciones</a></li>
+            <li><button class="boton-1"><a href="#">Contactanos</a></button></li>
+        </ul>
 
+    </nav>
+    
     <header class="cabeza">
         <div class="imagen">
         </div>
